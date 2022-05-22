@@ -5,7 +5,7 @@ To develop a code to solve eight queens problem using the hill-climbing algorith
 
 ## THEORY
 At each iteration, the hill-climbing search algorithm moves to the best successor of the current
-node according to an objective function.The algorithm does not maintain a search tree, so the data structure for the current node need only
+node according to an objective function. The algorithm does not maintain a search tree, so the data structure for the current node need only
 record the state and the value of the objective function.
 
 ## DESIGN STEPS
@@ -15,17 +15,17 @@ Import required python packages.
 
 
 ### STEP 2:
-Define the Intial State and get the number of random conflict at initial ,then using objective function calculate.
+Define the Initial State and get the number of random conflicts at the initial, then using the objective function calculates.
 
 
 ### STEP 3:
-Make a decision whether to change if state with a better objective function value, or stay in the current state.
+Make a decision whether to change if a state with a better objective function value, or stay in the current state.
 ### STEP 4:
 Repeat the process until the total number of conflicts, or the Objective function, becomes zero.
 ### STEP 5:
-By calculating the timetaken by the function to reduce the conflict for varying number of iterations .
+By calculating the time taken by the function to reduce the conflict for varying number of iterations.
 ### Step 6:
-Plot a graph between timetaken and iterations.
+Plot a graph between time taken and iterations.
 
 
 ## PROGRAM
@@ -223,7 +223,7 @@ plt.show()
 ## OUTPUT:
 ### Results.
 ![output](images/num1.png)
-### Shows timetaken for each iterations.
+### Shows the timetaken for each iterations.
 ![output1](images/out1.png)
 ![output2](images/out2.png)
 when the iterations increase, to complete the search time increases too.
@@ -236,11 +236,11 @@ when the iterations increase, to complete the search time increases too.
 
 
 ## Time Complexity Plot
-#### Plot a graph for various value of N and time(seconds)
+#### Plot a graph for the various value of N and time(seconds)
 ![output5](images/grf1.png)
 ![output6](images/grf2.png)
 
 ## RESULT:
-Hence,this code solves eight queens problem using the hill-climbing algorithm has been implemented.
+Hence, this code solves the eight queens problem using the hill-climbing algorithm that has been implemented.
 
 
